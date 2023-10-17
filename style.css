@@ -1,0 +1,95 @@
+body{
+    margin: 100px auto;
+    background-color:rgb(230, 208, 208);
+}
+
+.container-main2{
+    border:2px solid white ;
+    margin-left: 700px;
+    background-color: white;
+    width: 30%;
+    height: 400px;
+}
+.container-main3{
+    border:2px solid white ;
+    margin-left: 700px;
+    background-color: white;
+    width: 30%;
+    height: 400px;
+}
+.container-main{
+    color: white;
+    background-color: rgba(64, 60, 60, 50);
+    width: 30%;
+    float: left;
+    padding: 20px;
+    margin: 2px auto;
+    position: absolute;
+    top: 50px;
+    left: 200px;
+    z-index: 1;
+    
+
+}
+.container-main h1{
+    margin-bottom: 0px;
+    margin-top: 150px;
+    margin-left: 70px;
+    font-size: 7cap;
+    
+}
+.container-main p{
+    margin-top: 0px;
+    margin-bottom: 150px;
+    margin-left: 125px;
+}
+.container-main h2{
+    color: red;
+}
+h2 span{
+    color: white;
+}
+button{
+    border-radius: 20px;
+    width: 150px;
+    height: 30px;
+    background-color: red;
+    color: white;
+    margin-left: 20px;
+    margin-bottom: 80px;
+}
+.container-main3 input {
+    border: none;
+    border-bottom: 1px solid #000;
+    background: none;
+    padding: 30px 0px 0px;
+    outline: none;
+    width: 300px;
+    margin-left: 20px;
+}
+.container-main2 input {
+    border: none;
+    border-bottom: 1px solid #000;
+    background: none;
+    padding: 30px 0px 0px;
+    outline: none;
+    width: 300px;
+    margin-left: 20px;
+    
+}
+@media screen and (max-width: 375px) {
+    body {
+      margin: 20px auto; 
+      background-color: rgb(230, 208, 208); 
+    }
+    .container-main2,
+  .container-main3 {
+    margin-left: 0;
+  }
+  container-main {
+    width: 100%; 
+    left: 0;
+    top: 0;
+    margin: 0;
+  }
+}
