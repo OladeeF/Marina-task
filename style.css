@@ -4,14 +4,12 @@ body{
 }
 
 .container-main2{
-    border:2px solid white ;
     margin-left: 700px;
     background-color: white;
     width: 30%;
     height: 400px;
 }
 .container-main3{
-    border:2px solid white ;
     margin-left: 700px;
     background-color: white;
     width: 30%;
@@ -77,19 +75,34 @@ button{
     margin-left: 20px;
     
 }
-@media screen and (max-width: 375px) {
-    body {
-      margin: 20px auto; 
-      background-color: rgb(230, 208, 208); 
+@media screen and (max-width: 375px){
+    body{
+        margin:0px;
+        flex-direction: column;
     }
-    .container-main2,
-  .container-main3 {
-    margin-left: 0;
-  }
-  container-main {
-    width: 100%; 
-    left: 0;
-    top: 0;
-    margin: 0;
-  }
+    .container-main{
+        width: 100%;
+        position: static;
+        margin: 0px;
+       
+    }
+    .container-main2{
+        width: 100%;
+        margin: 0px;
+        margin-right: 0px;
+        padding:none;
+
+    }
+    .container-main3{
+        width: 100%;
+        margin: 0px;
+        margin-left: 0px;
+        padding:none;
+    }
+    .container-main h1{
+        margin-left: auto;
+    }
+    .container-main h2{
+        margin-left:auto;
+    }
 }
